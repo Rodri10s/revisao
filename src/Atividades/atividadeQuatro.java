@@ -5,18 +5,18 @@ public class atividadeQuatro {
         int soma = 0;
         long multiplicacao = 0;
 
-        for(int i=0; i<=30; i++){
-            if(!(i%2==0)){
+        for (int i = 0; i <= 30; i++) {
+            if (!(i % 2 == 0)) {
                 soma = soma + i;
-            }else{
-                if (multiplicacao == 0) {
-                    multiplicacao = i; 
-                } else {
-                    multiplicacao = multiplicacao * i;
-                }
+            } else if (multiplicacao == 0) {
+                multiplicacao = i;
+            } else {
+                multiplicacao = multiplicacao * i;
             }
         }
-       System.err.println("Soma dos números impares: " + soma);
-       System.out.println("Multiplicação dos números pares: " + multiplicacao);
+        System.out.println("Soma dos números impares: " + soma);
+        System.out.println("Multiplicação dos números pares: " + multiplicacao);
+
     }
+
 }
