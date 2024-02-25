@@ -1,8 +1,8 @@
-package Atividades;
+package atividades;
 
 import java.util.ArrayList;
 
-public class atividadeTres {
+public class AtividadeTres {
     public static void main(String[] args) {
         ArrayList numeros = new ArrayList();
 

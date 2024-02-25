@@ -1,6 +1,6 @@
-package Atividades;
+package atividades;
 
-public class atividadeQuatro {
+public class AtividadeQuatro {
     public static void main(String[] args) {
         int soma = 0;
         long multiplicacao = 0;

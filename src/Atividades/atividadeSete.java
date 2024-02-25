@@ -1,8 +1,8 @@
-package Atividades;
+package atividades;
 
 import java.util.Scanner;
 
-public class atividadeSete {
+public class AtividadeSete {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
