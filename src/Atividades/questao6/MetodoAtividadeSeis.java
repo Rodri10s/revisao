@@ -1,9 +1,10 @@
-package atividades;
+package atividades.questao6;
 
 import java.util.Scanner;
 
-public class AtividadeSeis {
-    public static void main(String[] args) {
+public class MetodoAtividadeSeis {
+    
+    public void salarioFinal(){
         Scanner input = new Scanner(System.in);
 
         System.out.println("Quantas horas trabalhadas? ");
@@ -11,6 +12,6 @@ public class AtividadeSeis {
 
         double salario = horas*12.5;
 
-        System.out.println("Sálario há receber: "+salario);
+        System.out.println("Sálario há receber: R$ "+salario);
     }
 }

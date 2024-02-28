@@ -1,4 +1,4 @@
-package atividades;
+package atividades.questao8;
 
 import java.util.Scanner;
 
@@ -12,10 +12,8 @@ public class AtividadeOito {
         System.out.println("Valor de venda: ");
         double venda = input.nextDouble(); 
 
-        if(venda>=(valor+valor/2)){
-            System.out.println("Lucro!");
-        }else{
-            System.out.println("Prejuízo!");
-        }
+        MetodoAtividadeOito metodo = new MetodoAtividadeOito();
+
+        metodo.verificadorDeLucro(valor, venda);
     }
 }

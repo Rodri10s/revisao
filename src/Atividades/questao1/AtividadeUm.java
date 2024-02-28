@@ -1,4 +1,4 @@
-package atividades;
+package atividades.questao1;
 
 import java.util.Scanner;
 
@@ -10,12 +10,9 @@ public class AtividadeUm {
         System.out.println("De qual numero deseja ver a tabuada?");
         int num = input.nextInt();
 
-        int i = 0;
-        while(i<=10){
-            int resultado = num*i;
-            System.out.println(num + " x " + i + " = " + resultado + "\n");
-            i++;
+        MetodoAtividadeUm metodo = new MetodoAtividadeUm();
+
+        metodo.geradorDeTabuada(num);
 
         }
     }
-}

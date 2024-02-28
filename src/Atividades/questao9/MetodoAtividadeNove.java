@@ -1,13 +1,8 @@
-package atividades;
+package atividades.questao9;
 
-import java.util.Scanner;
-
-public class AtividadeNove {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-
-        System.out.println("Informe o número do mês: ");
-        int num = input.nextInt();
+public class MetodoAtividadeNove {
+    
+    public void verificadorDeMes(int num){
 
         switch (num) {
             case 1:
